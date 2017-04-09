@@ -1,6 +1,7 @@
 ---
 layout: post
-title: Why MapperKeeper?
+title: MapperKeeper Mission
+author: Joshua Tanner
 ---
 
-MapperKeeper does...
+Talk about mission and background of MapperKeeper
