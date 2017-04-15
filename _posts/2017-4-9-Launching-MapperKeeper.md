@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MapperKeeper Mission
+title: We're Launching MapperKeeper!
 author: Joshua Tanner
 ---
 
