@@ -4,12 +4,10 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
+We are a startup, passionate about software development, design, and mapping!  We launched MapperKeeper because we want to make mapping more accessible and easy to integrate into social media.  
 
-### More Information
+We're motivated to provide the best product that the community needs to make this happen.  Feel free to contact us with questions and comments.  
 
-A place to include any other types of information that you'd like to include about yourself.
+### Contact Us
 
-### Contact me
-
-[email@domain.com](mailto:email@domain.com)
+[mapperkeeper.team@gmail.com](mailto:mapperkeeper.team@gmail.com)
