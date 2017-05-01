@@ -67,3 +67,78 @@ Lastly, select **add video** and add the following information:
 **YouTube URL:** https://www.youtube.com/watch?v=AR3rEtzYFKM
 
 ![add video](/images/tutorial/add_video.png)
+
+## Step 7: Add Places for Spectators to Watch Marathon
+
+Now that we have the Boston Marathon route, we need to show locations of places of places that spectators can go to watch the race.  For this tutorial, we will be adding one location; [Cityside Bar](https://www.facebook.com/citysidebar/), which is located on 1960 Beacon St
+Brighton, MA.  **Type the address or name** of the location in the input box on the top of the screen.  As you type, you should see suggestions for related locations.  When you are done, select the address or hit **enter**.
+
+![input address](/images/tutorial/geocode.png)
+
+From the map popup, you can click on **add marker here** to add the location permanently to the map.
+
+![add marker](/images/tutorial/add_marker.png)
+
+If you were building your own map, you might add many different locations.  You can also use the drawing tools on the right toolbar for manually drawing on the map.
+
+## Step 8: Update Marker Details and Style
+
+Just like we did with the Boston Marathon route, we will update the title, description, and style of the map feature.  Start by clicking on the marker and setting the **title** and **description**.
+
+![add details](/images/tutorial/cityside_title.png)
+
+Add some unique styling.  For this location, we will use a beer icon to represent a bar.  There are many other icons to choose from.
+
+![beer_icon](/images/tutorial/beer_icon.png)
+
+## Step 9: Time to Write a Story
+
+With MapperKeeper, you can write a story that describes your map.  The story editor offers tools much like you would expect in a text editor.  Within the text editor, you can even create links that reference the features on the map.  By typing **@**, a dropdown will appear that let you choose locations on the map by their title. 
+
+Write a story about your map, making sure to mention the locations on the map.
+
+![map mentions](/images/tutorial/story_mention.png)
+
+![map_mentions](/images/tutorial/cityside_mention.png)
+
+## Step 10: Save Your Map
+
+When you are done, make sure to save your map with the save button in the lower right.  Saving your map preserves your map features, and your story.
+
+![save map](/images/tutorial/final_save.png)
+
+## Step 10: Share Your Map
+
+You didn't spend all this time to keep such a great map to yourself.  Maps in MapperKeeper are **meant to be shared**.  Click the **share** button in the lower right.
+
+![share dialogue](/images/tutorial/share.png)
+
+By defualt, your map is private until you want to share it.  To make the map public, click the toggle switch.
+
+![make public](/images/tutorial/make_public.png)
+
+Once your map is made public, you have three sharing options:
+
+1. **Blast** your summary and a picture of your map directly to your social media accounts
+2. **Copy** the URL of the map and send it however you like
+3. **Embed** the map with an iFrame in your own websites
+
+## Step 11: Easily Blast Your Map to Social Media
+
+MapperKeeper helps you tell people about your map by quickly posting your map summary and an image of your map to your linked social media accounts.  You can select **either** twitter, facebook, or both.  When you are ready to share your map, **click in blast off!**.
+
+![blast off](/images/tutorial/blast.png)
+
+Once your social media accounts have been updated, a link to **view your post** will be available.  Click on **view post** to see it in either Facebook or Twitter.
+
+![view social](/images/tutorial/view_post.png)
+
+![twitter post](/images/tutorial/twitter_post.png)
+
+## Step 12: Celebrate!!
+
+You did it!  You created your first map in MapperKeeper and shared to social media.  
+
+We hope you find MapperKeeper helpful and we are working hard every day to make it the best platform for building maps and telling stories.  Get mapping!
+
+
