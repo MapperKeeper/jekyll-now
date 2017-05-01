@@ -12,12 +12,7 @@ We're building a map to show the 2018 Boston Marathon and adding a rooftop bar l
 
 ## Step 1: Linking Your Social Media Accounts
 
-Linking your social media accounts with your MapperKeeper account 
-
-
-
-
-you quickly share your map on Twitter and Facebook.  Once linked, you can share a summary and picture of your map to social media with a single click.  On the dashboard page, **link your desired social media accounts** by clicking *link account* in the left sidebar.  This step is optional, but strongly encouraged!
+Linking your social media accounts with your MapperKeeper account lets you quickly share your map on Twitter and Facebook.  Once linked, you can share a summary and picture of your map to social media with a single click.  On the dashboard page, **link your desired social media accounts** by clicking *link account* in the left sidebar.  This step is optional, but strongly encouraged!
 
 ![link social media accounts](/images/tutorial/link_accts.png)
 
