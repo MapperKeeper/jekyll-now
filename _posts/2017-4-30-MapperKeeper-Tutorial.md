@@ -8,11 +8,16 @@ author: Joshua Tanner
 
 ## What We're Buidling
 
-We're building a map to show the 2018 Boston Marathon and adding a rooftop bar location for those that prefer to experience the event with a beer in hand!  These spectators need to know where to watch the race and also see the marathon route.  In this tutorial we will talk about adding GeoJSON files, linking to pictures and YouTube videos, and sharing your creation on Twitter.  
+We're building a map to show the 2018 Boston Marathon and adding a rooftop bar location for those that prefer to experience the event with a beer in hand!  Spectators need to know where to watch the race **and** see the marathon route.  In this tutorial we will talk about adding GeoJSON files, linking to pictures and YouTube videos, and sharing your creation on Twitter and Facebook.  
 
 ## Step 1: Linking Your Social Media Accounts
 
-Linking your social media accounts with your MapperKeeper account lets you quickly share your creations with Twitter and Facebook.  Once linked, you can share a summary and picture of your map to social media with a single click.  On the dashboard page, **link your desired social media accounts** by clicking *link account* in the left sidebar.  This step is optional, but strongly encouraged!
+Linking your social media accounts with your MapperKeeper account 
+
+
+
+
+you quickly share your map on Twitter and Facebook.  Once linked, you can share a summary and picture of your map to social media with a single click.  On the dashboard page, **link your desired social media accounts** by clicking *link account* in the left sidebar.  This step is optional, but strongly encouraged!
 
 ![link social media accounts](/images/tutorial/link_accts.png)
 
@@ -24,13 +29,13 @@ Your map dashboard will contain all of your great maps that you create.  To get 
 
 ## Step 3: Add Required Title and Summary
 
-Before you can save your map, you must first add a **title** and **summary**.  The title is a clear name for your map, and the summary is *what will be posted to social media*.  After adding a title and summary, you can **click save** on the bottom right.
+Before you can save your map, you must first add a **title** and **summary**.  The title is a descriptive name for your map, and the summary is the text that will be *posted to social media*.  After adding a title and summary, you can **click save** at the bottom right.
 
 ![title, summary, and save](/images/tutorial/create_map.png)
 
 ## Step 4: Import Some Data
 
-You can add features to your map by either drawing (points, lines, polygons) them directly, or importing data from many open formats (GeoJSON, KML, GPX, TopoJSON, IGC, CSV).  We want to add the Boston Marathon route so that our viewers can see where the runners will be running during the race.  Instead of drawing the route, lets add it to the map from an existin GeoJSON file.
+You can add features to your map by either drawing (points, lines, polygons) them directly, or importing data from many open formats (GeoJSON, KML, GPX, TopoJSON, IGC, CSV).  We want to add the Boston Marathon route so that our viewers can see where the runners will be running during the race.  Instead of drawing the route, let's add it to the map from an existing GeoJSON file.
 
 Right click on [this link](https://github.com/MapperKeeper/geojson/raw/master/data/boston_marathon.geojson) and select **save link as** and save it to your computer.  After it is saved, you can import it using the map import tools on the right toolbar, or simply click and drag the file and drop it onto your map.
 
@@ -44,7 +49,7 @@ When users click on the marathon route, you want them to see a title and short d
 
 ## Step 6: Change the Color and Style of the Line
 
-We can make the marathon route stand out better by changing the color and style of the line.  Click on the **third tab** for the on the feature tools to see the style options.  Change the color, width, and transparency that you want.  I will use a nice red color.
+We can make the marathon route stand out better by changing the color and style of the line.  Click the **third tab** on the feature tools toolbar to see the style options.  Change the color, width, and transparency that you want.  I'm using a nice red color.  You can set the HEX value if you want to be more specific.
 
 ![change style](/images/tutorial/change_color.png)
 
@@ -68,10 +73,10 @@ Lastly, select **add video** and add the following information:
 
 ![add video](/images/tutorial/add_video.png)
 
-## Step 7: Add Places for Spectators to Watch Marathon
+## Step 7: Add Places for Spectators to Watch the Marathon
 
-Now that we have the Boston Marathon route, we need to show locations of places of places that spectators can go to watch the race.  For this tutorial, we will be adding one location; [Cityside Bar](https://www.facebook.com/citysidebar/), which is located on 1960 Beacon St
-Brighton, MA.  **Type the address or name** of the location in the input box on the top of the screen.  As you type, you should see suggestions for related locations.  When you are done, select the address or hit **enter**.
+Now that we have the Boston Marathon route, we need to show locations of places that spectators can go to watch the race.  For this tutorial, we will be adding one location; [Cityside Bar](https://www.facebook.com/citysidebar/), which is located on 1960 Beacon St
+Brighton, MA.  **Type the address or name** of the location in the input box on the top left of the screen.  As you type, you should see suggestions for related locations.  When you are done, select the address or hit **enter**.
 
 ![input address](/images/tutorial/geocode.png)
 
@@ -93,7 +98,7 @@ Add some unique styling.  For this location, we will use a beer icon to represen
 
 ## Step 9: Time to Write a Story
 
-With MapperKeeper, you can write a story that describes your map.  The story editor offers tools much like you would expect in a text editor.  Within the text editor, you can even create links that reference the features on the map.  By typing **@**, a dropdown will appear that let you choose locations on the map by their title. 
+With MapperKeeper, you can write a story that describes your map.  The story editor offers tools much like you would expect in a text editor.  Within the story editor, you can even create links that reference the features on the map.  By typing **@**, a dropdown will appear that let you choose locations on the map by their title. 
 
 Write a story about your map, making sure to mention the locations on the map.
 
@@ -120,16 +125,16 @@ By defualt, your map is private until you want to share it.  To make the map pub
 Once your map is made public, you have three sharing options:
 
 1. **Blast** your summary and a picture of your map directly to your social media accounts
-2. **Copy** the URL of the map and send it however you like
+2. **Copy** the URL of the map and send it however you like (email, text, snail mail :))
 3. **Embed** the map with an iFrame in your own websites
 
-## Step 11: Easily Blast Your Map to Social Media
+## Step 11: Blast Your Map to Social Media
 
-MapperKeeper helps you tell people about your map by quickly posting your map summary and an image of your map to your linked social media accounts.  You can select **either** twitter, facebook, or both.  When you are ready to share your map, **click in blast off!**.
+MapperKeeper helps you tell people about your map by quickly posting your map summary and an image of your map to your linked social media accounts.  You can select **either** twitter, facebook, or both.  When you are ready to share your map, **click blast off!**.
 
 ![blast off](/images/tutorial/blast.png)
 
-Once your social media accounts have been updated, a link to **view your post** will be available.  Click on **view post** to see it in either Facebook or Twitter.
+Once your social media accounts have been updated, a link to **view your post** will be available.  Click on **view post** to see it on either Facebook or Twitter.
 
 ![view social](/images/tutorial/view_post.png)
 
