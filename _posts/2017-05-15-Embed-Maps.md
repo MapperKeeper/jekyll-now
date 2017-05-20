@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Embedding maps with MapperKeeper
+title: Embedding Maps with MapperKeeper
 author: Joshua Tanner
 ---
 
