@@ -71,3 +71,11 @@ In fact, the are different properties that you can define for different types of
 "fill": "#555555",
 "fill-opacity": 0.6,
 ```
+
+## Adding Images and Videos
+
+## Adding Links
+
+## Next, Let's Make a Map
+
+...tutorial link
