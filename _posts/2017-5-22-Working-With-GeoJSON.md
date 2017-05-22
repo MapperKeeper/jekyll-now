@@ -16,15 +16,17 @@ To get a feel for what GeoJSON looks like, below is a simple example of a single
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [125.6, 10.1]
+    "coordinates": [-122.669, 45.519]
   },
   "properties": {
-    "name": "Dinagat Islands"
+    "name": "Portland, OR"
   }
 }
 ```
 
 You can see we are explicitly stating that the feature is a point, at a given latitude and longitude, and specifying some additional related properties.  The properties object can contain any information you want.
+
+## Popup Title and Description
 
 ## GeoJSON Styles in MapperKeeper
 
@@ -37,10 +39,10 @@ For example, let's look at the GeoJSON sample from above with a custom style:
   "type": "Feature",
   "geometry": {
     "type": "Point",
-    "coordinates": [125.6, 10.1]
+    "coordinates": [-122.669, 45.519]
   },
   "properties": {
-    "name": "Dinagat Islands",
+    "name": "Portland, OR",
     "marker-symbol": "rocket",
     "marker-color": "#aaccee"
   }
@@ -53,5 +55,19 @@ In fact, the are different properties that you can define for different types of
 
 ```js
 # Point
+"marker-size": "medium",
+"marker-symbol": "circle",
+"marker-color": "#653294",
 
+# Line
+"stroke": "#653294",
+"stroke-opacity": 1.0,,
+"stroke-width": 3,
+
+# Polygon
+"stroke": "#653294",
+"stroke-opacity": 1.0,,
+"stroke-width": 3,
+"fill": "#555555",
+"fill-opacity": 0.6,
 ```
