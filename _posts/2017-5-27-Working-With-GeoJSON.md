@@ -207,3 +207,5 @@ Create an empty file called location.geojson and copy and paste the GeoJSON belo
   ]
 }
 ```
+
+![Embed](/images/geojson/popup.png)
