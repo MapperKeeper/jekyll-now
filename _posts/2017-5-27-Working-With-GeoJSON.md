@@ -101,12 +101,12 @@ In fact, the are different properties that you can define for different types of
 
 # Line
 "stroke": "#653294",
-"stroke-opacity": 1.0,,
+"stroke-opacity": 1.0,
 "stroke-width": 3,
 
 # Polygon
 "stroke": "#653294",
-"stroke-opacity": 1.0,,
+"stroke-opacity": 1.0,
 "stroke-width": 3,
 "fill": "#555555",
 "fill-opacity": 0.6,
@@ -114,7 +114,7 @@ In fact, the are different properties that you can define for different types of
 
 ### Adding Images and Videos
 
-You can add a gallery of images and videos into your [MapperKeeper](https://www.mapperkeeper.com) by defining an array of media items for your `gallery` property.  An array is like a list, where you can define more than just 1 item.   Each gallery item is its' own object that can either be a `image` or `youtube` video with a title and valid URL.  If the media is not owned by you, it is good practice to credit the original author in the title field.  
+You can add a gallery of images and videos into your [MapperKeeper](https://www.mapperkeeper.com) map by defining an array of media items in a `gallery` property.  An array is like a list, where you can define more than just 1 item.   Each gallery item is its' own object that can either be an `image` or `youtube` video with a title and valid URL.  If the media is not owned by you, it is good practice to credit the original author in the title field.  
 
 Gallery items automatically show up in the popup for a user to click on and explore.  Below is an example of a feature with a gallery containing a single image and video:
 
@@ -160,11 +160,50 @@ It is important to note that you can define any custom property for your GeoJSON
     "description": "We get together monthly to solve spatial problems."
     "marker-symbol": "rocket",
     "marker-color": "#aaccee",
-    "meetup-link": "http://maptime.io/portland/"
+    "meetup-page": "http://maptime.io/portland/"
   }
 }
 ```
 
 ## Interactive - Upload a Custom GeoJSON File in MapperKeeper
 
+Create an empty file called location.geojson and copy and paste the GeoJSON below into it.  Next, in a new or existing map editing window, drag and drop the file onto your map.  You should now see your new map feature, with a custom style and gallery!
 
+```js
+{
+  "type":"FeatureCollection",
+  "features":[
+    {
+      "type":"Feature",
+      "geometry":{
+        "type":"Point",
+        "coordinates":[
+          -122.71617698899966,
+          45.510137329000514
+        ]
+      },
+      "properties":{
+        "name":"Oregon Zoo",
+        "description":"Explore the fantastic animals the Oregon Zoo has to offer!",
+        "address":"Oregon Zoo 4001 SW Canyon Rd Portland, OR 97221",
+        "marker-size":"large",
+        "marker-symbol":"zoo",
+        "marker-color":"e27300",
+        "homepage":"http://www.oregonzoo.org/",
+        "gallery":[
+          {
+            "type":"image",
+            "url":"http://www.oregonzoo.org/sites/default/files/styles/article-full/public/H_orig_about_landing.jpg",
+            "title":"Image Credit www.oregonzoo.com"
+          },
+          {
+            "type":"youtube",
+            "url":"https://www.youtube.com/watch?v=r19F6LhzhCA",
+            "title":"Snow Day at Oregon Zoo, Credit Oregonian"
+          }
+        ]
+      }
+    }
+  ]
+}
+```
