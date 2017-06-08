@@ -32,9 +32,9 @@ You can see we are explicitly stating that the feature is a point, at a given la
 MapperKeeper extends traditional GeoJSON with its' own specification [mapperkeeper-geojson-spec](https://github.com/MapperKeeper/mapperkeeper-geojson-spec) to include properties for defining custom styles, adding a gallery of images and videos, and other useful features.  Let's take a quick look at what makes MapperKeeper GeoJSON special.
 
 
-### Popup Title and Description
+### Popup Name and Description
 
-A `title` is a descriptive name for a map feature.  Providing a `title` is not required, but important because it shows up in the top of the popup.  You can also provide an optional `description` property that describes your map feature in more detail, which shows up in the popup.  Below is an example of adding a title and description to GeoJSON:
+A `name` is a descriptive name or title for a map feature.  Providing a `name` is not required, but important because it shows up in the top of the popup.  You can also provide an optional `description` property that describes your map feature in more detail, which shows up in the popup.  Below is an example of adding a name and description to GeoJSON:
 
 ```js
 {
@@ -44,7 +44,7 @@ A `title` is a descriptive name for a map feature.  Providing a `title` is not r
     "coordinates": [-122.669, 45.519]
   },
   "properties": {
-    "title": "Portland, OR",
+    "name": "Portland, OR",
     "description": "City in Oregon with great tech community"
   }
 ```
@@ -61,7 +61,7 @@ Providing an `address` property generates a navigation link in the map popup.  W
     "coordinates": [-122.669, 45.519]
   },
   "properties": {
-    "title": "Oregon Zoo",
+    "name": "Oregon Zoo",
     "description": "Award winning zoo in Portland, Oregon",
     "address": "4001 Southwest Canyon Road, Portland, OR 97221"
   }
@@ -81,7 +81,7 @@ For example, let's look at the GeoJSON sample from above with a custom style:
     "coordinates": [-122.669, 45.519]
   },
   "properties": {
-    "title": "Portland, OR",
+    "name": "Portland, OR",
     "description": "City in Oregon with great tech community"
     "marker-symbol": "rocket",
     "marker-color": "#aaccee"
@@ -114,7 +114,7 @@ In fact, the are different properties that you can define for different types of
 
 ### Adding Images and Videos
 
-You can add a gallery of images and videos into your [MapperKeeper](https://www.mapperkeeper.com) map by defining an array of media items in a `gallery` property.  An array is like a list, where you can define more than just 1 item.   Each gallery item is its' own object that can either be an `image` or `youtube` video with a title and valid URL.  If the media is not owned by you, it is good practice to credit the original author in the title field.  
+You can add a gallery of images and videos into your [MapperKeeper](https://www.mapperkeeper.com) map by defining an array of media items in a `gallery` property.  An array is like a list, where you can define more than just 1 item.   Each gallery item is its' own object that can either be an `image` or `youtube` video with a name and valid URL.  If the media is not owned by you, it is good practice to credit the original author in the name field.  
 
 Gallery items automatically show up in the popup for a user to click on and explore.  Below is an example of a feature with a gallery containing a single image and video:
 
@@ -126,19 +126,19 @@ Gallery items automatically show up in the popup for a user to click on and expl
     "coordinates": [-122.669, 45.519]
   },
   "properties": {
-    "title": "Oregon Zoo",
+    "name": "Oregon Zoo",
     "description": "Award winning zoo in Portland, Oregon",
     "address": "4001 Southwest Canyon Road, Portland, OR 97221",
     "gallery": [
       {
         "type": "image",
         "url": "http://www.oregonzoo.org/sites/default/files/styles/article-full/public/H_orig_about_landing.jpg",
-        "title": "Image credit www.oregonzoo.org"
+        "name": "Image credit www.oregonzoo.org"
       },
       {
         "type": "video",
         "url": "https://www.youtube.com/watch?v=r19F6LhzhCA",
-        "title": "Snow Day at Oregon Zoo, Credit Oregonian"
+        "name": "Snow Day at Oregon Zoo, Credit Oregonian"
       }
     ]
   }
@@ -156,7 +156,7 @@ It is important to note that you can define any custom property for your GeoJSON
     "coordinates": [-122.669, 45.519]
   },
   "properties": {
-    "title": "Maptime PDX",
+    "name": "Maptime PDX",
     "description": "We get together monthly to solve spatial problems."
     "marker-symbol": "rocket",
     "marker-color": "#aaccee",
@@ -194,12 +194,12 @@ Create an empty file called location.geojson and copy and paste the GeoJSON belo
           {
             "type":"image",
             "url":"http://www.oregonzoo.org/sites/default/files/styles/article-full/public/H_orig_about_landing.jpg",
-            "title":"Image Credit www.oregonzoo.com"
+            "name":"Image Credit www.oregonzoo.com"
           },
           {
             "type":"youtube",
             "url":"https://www.youtube.com/watch?v=r19F6LhzhCA",
-            "title":"Snow Day at Oregon Zoo, Credit Oregonian"
+            "name":"Snow Day at Oregon Zoo, Credit Oregonian"
           }
         ]
       }
